@@ -405,7 +405,7 @@ const Projects = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <img
-                        src={project.image} // Pastikan ada properti 'image' di data proyek Anda
+                        src={project.id === 1 ? project.image1 : project.image2} // Pastikan ada properti 'image' di data proyek Anda
                         alt={project.title}
                         className="absolute h-full w-full object-cover"
                       />

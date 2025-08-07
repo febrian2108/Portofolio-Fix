@@ -189,7 +189,7 @@ export const projects = [
     technologies: ["React", "Tailwind CSS", "Node.js", "Hapi.js", "Python", "Jupyter Notebook", "Pandas", "NumPy", "Scikit-learn", "Surprise", "Vite", "ESLint", "Vercel"],
     github_url: "https://github.com/febrian2108/Capstone-Project-RecMovies.git",
     Link_url: "https://frontendd-rose.vercel.app/",
-    featured: false,
+    featured: true,
     image1: "/project-image/recmovies/Project-Recmovies.png",
     image2: "/project-image/recmovies/Project-Recmovies1.png",
     image3: "/project-image/recmovies/Project-Recmovies2.png",
