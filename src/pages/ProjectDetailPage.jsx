@@ -112,6 +112,9 @@ const ProjectDetailPage = () => {
       'Surprise': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/surprise/surprise-original.svg',
       'Jupyter Notebook': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
       'ESLint': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg',
+      'PHP': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+      'Laravel': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
+      'Apache': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg',
     }
     return iconMap[skillName] || 'https://via.placeholder.com/32x32?text=' + skillName.charAt(0)
   }
@@ -167,6 +170,9 @@ const ProjectDetailPage = () => {
       'Jupyter Notebook': 'Data Science',
       'Hapi.js': 'Backend',
       'ESLint': 'Tools',
+      'PHP': 'Backend',
+      'Laravel': 'Backend',
+      'Apache': 'Tools',
     }
     return categoryMap[skillName] || 'Other'
   }

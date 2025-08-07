@@ -76,20 +76,27 @@ export const skills = [
   },
   {
     id: 11,
+    name: "PHP",
+    category: "Backend Development",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    description: "PHP (Hypertext Preprocessor)",
+  },
+  {
+    id: 12,
     name: "Laravel",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
     description: "PHP web application framework"
   },
   {
-    id: 12,
+    id: 13,
     name: "Python",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     description: "Readable and versatile backend language"
   },
   {
-    id: 13,
+    id: 14,
     name: "Flask",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
@@ -98,35 +105,35 @@ export const skills = [
 
   // Database
   {
-    id: 14,
+    id: 15,
     name: "MySQL",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     description: "Open-source relational database management system"
   },
   {
-    id: 15,
+    id: 16,
     name: "PostgreSQL",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     description: "Advanced open-source relational database"
   },
   {
-    id: 16,
+    id: 17,
     name: "MongoDB",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     description: "NoSQL document database"
   },
   {
-    id: 16,
+    id: 18,
     name: "Supabase",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
     description: "Open-source Firebase alternative"
   },
   {
-    id: 17,
+    id: 19,
     name: "Firebase",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
@@ -135,28 +142,28 @@ export const skills = [
 
   // Tools
   {
-    id: 17,
+    id: 20,
     name: "Git",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     description: "Distributed version control system"
   },
   {
-    id: 18,
+    id: 21,
     name: "Docker",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     description: "Platform for developing, shipping, and running applications"
   },
   {
-    id: 19,
+    id: 22,
     name: "ESLint",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
     description: "Linter for JavaScript and TypeScript"
   },
   {
-    id: 20,
+    id: 23,
     name: "Figma",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
@@ -165,7 +172,7 @@ export const skills = [
 
   // Mobile Development
   {
-    id: 21,
+    id: 24,
     name: "Flutter",
     category: "Mobile Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
@@ -182,7 +189,7 @@ export const projects = [
     technologies: ["React", "Tailwind CSS", "Node.js", "Hapi.js", "Python", "Jupyter Notebook", "Pandas", "NumPy", "Scikit-learn", "Surprise", "Vite", "ESLint", "Vercel"],
     github_url: "https://github.com/febrian2108/Capstone-Project-RecMovies.git",
     Link_url: "https://frontendd-rose.vercel.app/",
-    featured: true,
+    featured: false,
     image1: "/project-image/recmovies/Project-Recmovies.png",
     image2: "/project-image/recmovies/Project-Recmovies1.png",
     image3: "/project-image/recmovies/Project-Recmovies2.png",
@@ -194,14 +201,19 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking capabilities.",
+    title: "Project Bansos",
+    description: "Decision Support System for Providing Social Assistance to Underprivileged Communities Using the Simple Additive Weighting (SAW) Method.",
     category: "Web Development",
-    technologies: ["Vue.js", "Firebase", "Vuetify", "PWA"],
-    github_url: "https://github.com/username/task-manager",
-    Link_url: "https://task-manager-demo.netlify.app",
-    featured: true,
-    image: "/project-image/task-manager.png",
+    technologies: ["JavaScript", "PHP", "HTML5", "CSS3", "MySQL", "Apache"],
+    github_url: "https://github.com/febrian2108/Project-Bansos.git",
+    featured: false,
+    image1: "/project-image/bansos/Login.png",
+    image2: "/project-image/bansos/Home.png",
+    image3: "/project-image/bansos/Calon-penerima.png",
+    image4: "/project-image/bansos/Kriteria.png",
+    image5: "/project-image/bansos/Nilai-kriteria.png",
+    image6: "/project-image/bansos/Klasifikasi.png",
+    image7: "/project-image/bansos/Analisis.png",
     status: "Completed",
     created_at: "2024-02-20"
   },
@@ -239,7 +251,7 @@ export const projects = [
     technologies: ["React Native", "Firebase", "Redux", "Expo"],
     github_url: "https://github.com/username/fitness-tracker",
     Link_url: null,
-    featured: true,
+    featured: false,
     image: "/project-image/fitness.png",
     status: "Completed",
     created_at: "2024-05-12"
