@@ -52,6 +52,10 @@ const ProjectDetailPage = () => {
       project.image4,
       project.image5,
       project.image6,
+      project.image7,
+      project.image8,
+      project.image9,
+      project.image10,
     ].filter(Boolean)
 
   // Mock skills used in project - in real app, this would come from project data
@@ -90,7 +94,6 @@ const ProjectDetailPage = () => {
       'Stripe': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg',
       'Redux': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
       'Expo': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/expo/expo-original.svg',
-      'TensorFlow': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg',
       'OpenAI API': 'https://via.placeholder.com/32x32?text=AI',
       'Solidity': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg',
       'Web3.js': 'https://via.placeholder.com/32x32?text=W3',
@@ -104,17 +107,20 @@ const ProjectDetailPage = () => {
       'Chart.js': 'https://via.placeholder.com/32x32?text=CJS',
       'D3.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg',
       'Pandas': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg',
+      'Streamlit': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg',
       'NumPy': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg',
       'Hapi.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hapi/hapi-original.svg',
       'NLP': 'https://via.placeholder.com/32x32?text=NLP',
       'Vercel': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg',
-      'Scikit-learn': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg',
+      'Scikit-learn': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg',
       'Surprise': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/surprise/surprise-original.svg',
       'Jupyter Notebook': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
       'ESLint': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg',
       'PHP': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
       'Laravel': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg',
       'Apache': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg',
+      'Tensorflow': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg',
+      'Matplotlib': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg',
     }
     return iconMap[skillName] || 'https://via.placeholder.com/32x32?text=' + skillName.charAt(0)
   }
@@ -154,6 +160,7 @@ const ProjectDetailPage = () => {
       'OpenAI API': 'AI/ML',
       'NLP': 'AI/ML',
       'Pandas': 'Data Science',
+      'Streamlit': 'Tools',
       'NumPy': 'Data Science',
       'D3.js': 'Data Visualization',
       'Chart.js': 'Data Visualization',
@@ -167,6 +174,7 @@ const ProjectDetailPage = () => {
       'Vercel': 'Tools',
       'Scikit-learn': 'AI/ML',
       'Surprise': 'AI/ML',
+      'Matplotlib': 'AI/ML',
       'Jupyter Notebook': 'Data Science',
       'Hapi.js': 'Backend',
       'ESLint': 'Tools',

@@ -231,7 +231,7 @@ const Projects = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <img
-                            src={project.id === 1 ? project.image1 : project.image2}
+                            src={project.image1}
                             alt={project.title}
                             className="absolute h-full w-full object-cover"
                           />
@@ -405,7 +405,7 @@ const Projects = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <img
-                        src={project.id === 1 ? project.image1 : project.image2} // Pastikan ada properti 'image' di data proyek Anda
+                        src={project.image1} 
                         alt={project.title}
                         className="absolute h-full w-full object-cover"
                       />
@@ -545,9 +545,6 @@ const Projects = () => {
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Want to add a new project? Simply modify the data in the codebase to include your new project details.
-              </p>
             </motion.div>
           </motion.div>
         </motion.div>

@@ -1,5 +1,7 @@
 // Data for skills and projects
 
+import { Torus } from "lucide-react";
+
 export const skills = [
   // Frontend Development
   {
@@ -207,93 +209,110 @@ export const projects = [
     technologies: ["JavaScript", "PHP", "HTML5", "CSS3", "MySQL", "Apache"],
     github_url: "https://github.com/febrian2108/Project-Bansos.git",
     featured: false,
-    image1: "/project-image/bansos/Login.png",
-    image2: "/project-image/bansos/Home.png",
+    image1: "/project-image/bansos/Home.png",
+    image2: "/project-image/bansos/Login.png",
     image3: "/project-image/bansos/Calon-penerima.png",
     image4: "/project-image/bansos/Kriteria.png",
     image5: "/project-image/bansos/Nilai-kriteria.png",
     image6: "/project-image/bansos/Klasifikasi.png",
     image7: "/project-image/bansos/Analisis.png",
     status: "Completed",
-    created_at: "2024-02-20"
+    created_at: "Apr 23, 2024"
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard that displays current weather conditions, forecasts, and weather maps using external APIs.",
-    category: "Web Development",
-    technologies: ["JavaScript", "HTML5", "CSS3", "OpenWeather API", "Chart.js"],
-    github_url: "https://github.com/username/weather-dashboard",
-    Link_url: "https://weather-dashboard-demo.github.io",
+    title: "WawBeans",
+    description: "Online coffee ordering application that makes it easy for you to order your favorite coffee quikly and conveniently, directly from your smartphone.",
+    category: "Mobile Development",
+    technologies: ["Dart", "Flutter", "MySQL"],
+    github_url: "https://github.com/febrian2108/project_WawBeans.git",
+    Link_url: null,
     featured: false,
-    image: "/project-image/weather.png",
+    image1: "/project-image/wawbeans/WawBeans-1-1.jpg",
+    image2: "/project-image/wawbeans/WawBeans-1-2.jpg",
     status: "Completed",
-    created_at: "2024-03-10"
+    created_at: "May 11, 2024"
   },
   {
     id: 4,
-    title: "Social Media Analytics",
-    description: "A data analytics platform for social media metrics with interactive charts, trend analysis, and automated reporting features.",
-    category: "Data Science",
-    technologies: ["Python", "Django", "PostgreSQL", "D3.js", "Pandas", "NumPy"],
-    github_url: "https://github.com/username/social-analytics",
+    title: "Pahawang-Adventures",
+    description: "Project to manage tourism on Pahawang Island, grouping packages provided by the expedition party.",
+    category: "Web Development",
+    technologies: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+    github_url: null,
     Link_url: null,
     featured: false,
-    image: "/project-image/analytics.png",
+    image1: "/project-image/pahawang/Pahawang-Dashboard.png",
+    image2: "/project-image/pahawang/Pahawang-Login.png",
+    image3: "/project-image/pahawang/Pahawang-Paket.png",
+    image4: "/project-image/pahawang/Pahawang-FormPendaftaran.png",
+    image5: "/project-image/pahawang/Pahawang-DaftarPesanan.png",
     status: "In Progress",
-    created_at: "2024-04-05"
+    created_at: "May 24, 2024"
   },
   {
     id: 5,
-    title: "Mobile Fitness Tracker",
-    description: "A cross-platform mobile app for fitness tracking with workout plans, progress monitoring, and social features.",
-    category: "Mobile Development",
-    technologies: ["React Native", "Firebase", "Redux", "Expo"],
-    github_url: "https://github.com/username/fitness-tracker",
+    title: "Virtual Voice Assistence",
+    description: `Artificial Intelligence Final Project Assignment 
+    This program uses Python with the keywords 'search', 'open', 'close', 'recommendation', 'message', 'location', 'promo'.
+    This program also uses the RNN (Recurrent Neural Network) algorithm.`,
+    category: "AI/ML",
+    technologies: ["Python", "Tensorflow", "NumPy"],
+    github_url: "https://github.com/febrian2108/Project-KecerdasanBuatan-Delampoengcoffee.git",
     Link_url: null,
     featured: false,
-    image: "/project-image/fitness.png",
+    image1: "/project-image/virtualvoice/Virtual-Voice-Assistence.png",
     status: "Completed",
-    created_at: "2024-05-12"
+    created_at: "Apr 30, 2024"
   },
   {
     id: 6,
-    title: "AI Chatbot Assistant",
-    description: "An intelligent chatbot powered by machine learning that can handle customer support queries and provide automated responses.",
+    title: "Bike Sharing Dashboard Analysis",
+    description: `This project was created to complete the "Getting Started Programming with Python" course on the Dicoding platform.
+    The dataset used was obtained from the following link: 
+    \n https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/discussion?sort=undefined`,
     category: "AI/ML",
-    technologies: ["Python", "TensorFlow", "Flask", "NLP", "OpenAI API"],
-    github_url: "https://github.com/username/ai-chatbot",
-    Link_url: "https://chatbot-demo.herokuapp.com",
-    featured: false,
-    image: "/project-image/chatbot.png",
+    technologies: ["Python", "Jupyter Notebook", "Pandas", "Matplotlib", "Streamlit"],
+    github_url: "https://github.com/febrian2108/Analisis-Data-Peminjaman-Sepeda-MachineLearning.git",
+    Link_url: "https://pinjamsepeda.streamlit.app/",
+    featured: true,
+    image1: "/project-image/bikesharing/Bike-Sharing1.png",
+    image2: "/project-image/bikesharing/Bike-Sharing2.png",
+    image3: "/project-image/bikesharing/Bike-Sharing3.png",
     status: "Completed",
-    created_at: "2024-06-18"
+    created_at: "Nov 13, 2024"
   },
   {
     id: 7,
-    title: "Blockchain Voting System",
-    description: "A secure and transparent voting system built on blockchain technology with smart contracts and decentralized architecture.",
-    category: "Blockchain",
-    technologies: ["Solidity", "Web3.js", "Ethereum", "React", "MetaMask"],
-    github_url: "https://github.com/username/blockchain-voting",
-    Link_url: null,
-    featured: false,
-    image: "/project-image/blockchain.png",
-    status: "In Progress",
-    created_at: "2024-07-22"
+    title: "Classification of Heart and Kidney Diseases using Machine Learning Algorithms",
+    description: "This application implements heart and kidney disease classification using several popular machine learning algorithms. Users can select a dataset (heart or kidney disease), choose a classification algorithm (K-Nearest Neighbors, Support Vector Machine, or Random Forest), and view accuracy results and classification reports to compare the performance of these algorithms.",
+    category: "AI/ML",
+    technologies: ["Python", "Jupyter Notebook", "Pandas", "Matplotlib", "Scikit-learn", "Streamlit"],
+    github_url: "https://github.com/febrian2108/Klasifikasi-data-penyakit-jantung-dan-ginjal.git",
+    Link_url: "https://klasifikasi-data-penyakit-jantung-dan-ginjal-dengan-algoritma.streamlit.app/",
+    featured: true,
+    image1: "/project-image/klasifikasipenyakit/Klasifikasi-Penyakit1.png",
+    image2: "/project-image/klasifikasipenyakit/Klasifikasi-Penyakit2.png",
+    image3: "/project-image/klasifikasipenyakit/Klasifikasi-Penyakit3.png",
+    status: "Completed",
+    created_at: "Dec 3, 2024"
   },
   {
     id: 8,
-    title: "Portfolio Website",
-    description: "A modern, responsive portfolio website showcasing projects, skills, and professional experience with smooth animations and interactive elements.",
+    title: "Financial statements",
+    description: "This project was created using Laravel Filament Technology to help simplify and speed up the processing time and this project was created as material for me to learn about CRUD in Laravel. This project is still 90% complete and still at the development stage.",
     category: "Web Development",
-    technologies: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
-    github_url: "https://github.com/username/portfolio",
-    Link_url: "https://portfolio-demo.vercel.app",
-    featured: false,
-    image: "/project-image/portfolio.png",
+    technologies: ["PHP", "Laravel", "JavaScript"],
+    github_url: "https://github.com/febrian2108/laporan-keuangan.git",
+    Link_url: null,
+    featured: true,
+    image1: "/project-image/laporankeuangan/Laporan-Keuangan1.png",
+    image2: "/project-image/laporankeuangan/Laporan-Keuangan1.jpeg",
+    image3: "/project-image/laporankeuangan/Laporan-Keuangan2.png",
+    image4: "/project-image/laporankeuangan/Laporan-Keuangan3.png",
+    image5: "/project-image/laporankeuangan/Laporan-Keuangan4.png",
     status: "Completed",
-    created_at: "2024-08-01"
+    created_at: "Aug 22, 2024"
   }
 ];
 

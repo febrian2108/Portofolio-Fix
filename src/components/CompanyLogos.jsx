@@ -9,10 +9,11 @@ const CompanyLogos = () => {
   const companies = [
     { name: 'Dicoding', logo: '/company-logos/Logo_dicoding.png' },
     { name: 'Kampus Merdeka', logo: '/company-logos/Logo_Kampus_Merdeka.png' },
-    { name: 'Ruang Guru', logo: '/company-logos/Logo-Ruangguru.png' },
+    { name: 'Ruang Guru', logo: '/company-logos/Logo_Ruangguru.png' },
     { name: 'Kampus Merdeka', logo: '/company-logos/Logo_Kampus_Merdeka.png' },
     { name: 'Protek', logo: '/company-logos/Logo_Protek.png' },
-    { name: 'Delampoeng Coffee', logo: '/company-logos/Logo-Delampoeng.png' },
+    { name: 'Delampoeng Coffee', logo: '/company-logos/Logo_Delampoeng.png' },
+    { name: 'Travel Buddies', logo: '/company-logos/Logo_TravelBuddies.png' },
   ]
 
   // Animasi frame-by-frame (manual control)
@@ -43,7 +44,7 @@ const CompanyLogos = () => {
               <img
                 src={company.logo}
                 alt={company.name}
-                className="h-20 w-auto opacity-70 hover:opacity-100 transition duration-300 filter grayscale hover:grayscale-0"
+                className="h-25 w-auto opacity-70 hover:opacity-100 transition duration-300 filter grayscale hover:grayscale-0"
               />
             </div>
           ))}
