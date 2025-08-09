@@ -121,6 +121,7 @@ const ProjectDetailPage = () => {
       'Apache': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg',
       'Tensorflow': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg',
       'Matplotlib': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg',
+      'Golang': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
     }
     return iconMap[skillName] || 'https://via.placeholder.com/32x32?text=' + skillName.charAt(0)
   }
@@ -181,6 +182,7 @@ const ProjectDetailPage = () => {
       'PHP': 'Backend',
       'Laravel': 'Backend',
       'Apache': 'Tools',
+      'Golang': 'Backend',
     }
     return categoryMap[skillName] || 'Other'
   }

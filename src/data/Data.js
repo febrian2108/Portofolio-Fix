@@ -313,6 +313,26 @@ export const projects = [
     image5: "/project-image/laporankeuangan/Laporan-Keuangan4.png",
     status: "Completed",
     created_at: "Aug 22, 2024"
+  },
+  {
+    id: 9,
+    title: "Buku Listrik",
+    description: "an application or digital recording system used to record, calculate, and manage information related to postpaid electricity usage.",
+    category: "Web Development",
+    technologies: ["Golang", "React", "Vite", "Tailwind CSS", "ESLint", "MySQL", "Docker"],
+    github_url: null,
+    Link_url: null,
+    featured: true,
+    image1: "/project-image/bukulistrik/Buku-Listrik1.png",
+    image2: "/project-image/bukulistrik/Buku-Listrik2.png",
+    image3: "/project-image/bukulistrik/Buku-Listrik3.png",
+    image4: "/project-image/bukulistrik/Buku-Listrik4.png",
+    image5: "/project-image/bukulistrik/Buku-Listrik5.png",
+    image6: "/project-image/bukulistrik/Buku-Listrik6.png",
+    image7: "/project-image/bukulistrik/Buku-Listrik7.png",
+    image8: "/project-image/bukulistrik/Buku-Listrik8.png",
+    status: "Completed",
+    created_at: "Dec 12, 2024"
   }
 ];
 
