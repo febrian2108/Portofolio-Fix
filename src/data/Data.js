@@ -78,39 +78,40 @@ export const skills = [
   },
   {
     id: 11,
+    name: "Golang",
+    category: "Backend Development",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    description: "Statically typed, compiled programming language designed for simplicity and efficiency"
+  },
+  {
+    id: 12,
     name: "PHP",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
     description: "PHP (Hypertext Preprocessor)",
   },
   {
-    id: 12,
+    id: 13,
     name: "Laravel",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
     description: "PHP web application framework"
   },
   {
-    id: 13,
+    id: 14,
     name: "Python",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     description: "Readable and versatile backend language"
   },
   {
-    id: 14,
+    id: 15,
     name: "Flask",
     category: "Backend Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
     description: "Lightweight Python web framework"
   },
-  {
-    id: 15,
-    name: "Golang",
-    category: "Backend Development",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
-    description: "Statically typed, compiled programming language designed for simplicity and efficiency"
-  },
+  
 
   // Database
   {
