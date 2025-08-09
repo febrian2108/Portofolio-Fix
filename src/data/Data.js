@@ -104,38 +104,45 @@ export const skills = [
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
     description: "Lightweight Python web framework"
   },
+  {
+    id: 15,
+    name: "Golang",
+    category: "Backend Development",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    description: "Statically typed, compiled programming language designed for simplicity and efficiency"
+  },
 
   // Database
   {
-    id: 15,
+    id: 16,
     name: "MySQL",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     description: "Open-source relational database management system"
   },
   {
-    id: 16,
+    id: 17,
     name: "PostgreSQL",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     description: "Advanced open-source relational database"
   },
   {
-    id: 17,
+    id: 18,
     name: "MongoDB",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     description: "NoSQL document database"
   },
   {
-    id: 18,
+    id: 19,
     name: "Supabase",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
     description: "Open-source Firebase alternative"
   },
   {
-    id: 19,
+    id: 20,
     name: "Firebase",
     category: "Database",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
@@ -144,28 +151,28 @@ export const skills = [
 
   // Tools
   {
-    id: 20,
+    id: 21,
     name: "Git",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     description: "Distributed version control system"
   },
   {
-    id: 21,
+    id: 22,
     name: "Docker",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     description: "Platform for developing, shipping, and running applications"
   },
   {
-    id: 22,
+    id: 23,
     name: "ESLint",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
     description: "Linter for JavaScript and TypeScript"
   },
   {
-    id: 23,
+    id: 24,
     name: "Figma",
     category: "Tools",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
@@ -174,7 +181,7 @@ export const skills = [
 
   // Mobile Development
   {
-    id: 24,
+    id: 25,
     name: "Flutter",
     category: "Mobile Development",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
