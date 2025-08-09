@@ -146,7 +146,7 @@ const Home = () => {
                 </MagneticButton>
               </a>
 
-              <a href="/Projects">
+              <a href="/projects">
                 <MagneticButton>
                   <Button variant="outline" size="lg" className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-white">
                     <Code className="mr-2 h-4 w-4" />
